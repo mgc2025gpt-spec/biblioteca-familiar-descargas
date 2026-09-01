@@ -6,20 +6,23 @@ dispositivos mediante un código o un QR.
 
 ## Descarga sencilla
 
-- [Pack completo para Windows y Android 0.6.0](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.6.0/Biblioteca-Familiar-Pack-Completo.zip)
-- [Instalador para Windows 11](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.6.0/Biblioteca-Familiar-Windows-Instalador.exe)
-- [Aplicación para Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.6.0/Biblioteca-Familiar-Android.apk)
-- [Código QR para instalar en Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.6.0/QR-Instalar-Android.png)
+- [Pack completo para Windows y Android 0.7.0](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.7.0/Biblioteca-Familiar-Pack-Completo.zip)
+- [Instalador para Windows 11](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.7.0/Biblioteca-Familiar-Windows-Instalador.exe)
+- [Aplicación para Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.7.0/Biblioteca-Familiar-Android.apk)
+- [Código QR para instalar en Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.7.0/QR-Instalar-Android.png)
 
 La opción recomendada es descargar el **pack completo**, abrir el ZIP y leer
 `LEEME_PRIMERO.html`. La aplicación permite fotografiar varios libros, revisar
 las fichas detectadas, buscar, organizar ubicaciones y exportar listas a Excel o
 Word.
 
-La versión 0.6.0 busca también una carátula de mejor calidad y datos adicionales
+La versión 0.7.0 busca también una carátula de mejor calidad y datos adicionales
 en Open Library cuando la coincidencia del libro es fiable. Antes de guardar se
 pueden comparar la portada fotografiada y la de Internet; el recorte original se
-conserva siempre como alternativa.
+conserva siempre como alternativa. Comprueba automáticamente la foto en cuatro
+orientaciones, detecta libros de lado o boca abajo y endereza cada recorte. También
+permite registrar préstamos por ejemplar, persona y fecha, devoluciones y exportar
+esos datos.
 
 ## Sincronización familiar
 
