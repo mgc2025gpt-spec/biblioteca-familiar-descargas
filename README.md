@@ -6,17 +6,17 @@ dispositivos mediante un código o un QR.
 
 ## Descarga sencilla
 
-- [Pack completo para Windows y Android 0.9.0 beta 1](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.1/Biblioteca-Familiar-Pack-Completo.zip)
-- [Instalador para Windows 11](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.1/Biblioteca-Familiar-Windows-Instalador.exe)
-- [Aplicación para Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.1/Biblioteca-Familiar-Android.apk)
-- [Código QR para instalar en Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.1/QR-Instalar-Android.png)
+- [Pack completo para Windows y Android 0.9.0 beta 2](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.2/Biblioteca-Familiar-Pack-Completo.zip)
+- [Instalador para Windows 11](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.2/Biblioteca-Familiar-Windows-Instalador.exe)
+- [Aplicación para Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.2/Biblioteca-Familiar-Android.apk)
+- [Código QR para instalar en Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.2/QR-Instalar-Android.png)
 
 La opción recomendada es descargar el **pack completo**, abrir el ZIP y leer
 `LEEME_PRIMERO.html`. La aplicación permite fotografiar varios libros, revisar
 las fichas detectadas, buscar, organizar ubicaciones y exportar listas a Excel o
 Word.
 
-La versión 0.9.0 beta 1 busca también una carátula de mejor calidad y datos adicionales
+La versión 0.9.0 beta 2 busca también una carátula de mejor calidad y datos adicionales
 en Open Library cuando la coincidencia del libro es fiable. Antes de guardar se
 pueden comparar la portada fotografiada y la de Internet; el recorte original se
 conserva siempre como alternativa. Comprueba automáticamente la foto en cuatro
@@ -30,8 +30,10 @@ asociar silenciosamente un dispositivo que haya sido revocado.
 Esta beta añade una base SQLite independiente en cada instalación, sincronización
 con control de cambios concurrentes, caché local de portadas, aviso si falla el
 guardado y mejor tratamiento de lotes en los que una fotografía falla. Se ha
-verificado el instalador de Windows y la firma de Android, pero todavía requiere
-pruebas en un teléfono real antes de considerarla definitiva.
+verificado el instalador y arranque de Windows y la instalación, firma y arranque
+de Android 15 en un dispositivo limpio automatizado. También recupera
+automáticamente respuestas de reconocimiento mal formadas y permite empezar una
+biblioteca nueva y vacía desde Ajustes.
 
 ## Sincronización familiar
 
@@ -48,8 +50,12 @@ al volver a abrir la aplicación se pone al día automáticamente. La sincroniza
 necesita conexión a Internet en ese momento, pero la biblioteca sigue disponible
 sin conexión y los cambios pendientes se reintentan después.
 
-Al instalar 0.9.0 beta 1 sobre una versión anterior firmada se conserva la
+Al instalar 0.9.0 beta 2 sobre una versión anterior firmada se conserva la
 biblioteca local. No desinstales la aplicación ni borres sus datos.
+
+Si quieres empezar desde cero, no es necesario reinstalar. Abre **Ajustes >
+Empezar una biblioteca nueva y vacía**, confirma y crea la nueva familia primero
+en Windows. Después une Android con el código o QR mostrado por Windows.
 
 ## Actualización desde Android 0.4.2
 
