@@ -4,12 +4,25 @@ Aplicación privada para organizar los libros de una familia desde Windows y
 Android. Cada familia crea su propia biblioteca independiente y puede unir sus
 dispositivos mediante un código o un QR.
 
-## Descarga sencilla
+## Actualización rápida 0.9.0 beta 3
+
+- [Actualizar Windows 11](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.3/Biblioteca-Familiar-Windows-Instalador.exe)
+- [Actualizar Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.3/Biblioteca-Familiar-Android.apk)
+- [Código QR para actualizar Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.3/QR-Actualizar-Android.png)
+- [Huellas de seguridad SHA-256](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.3/ACTUALIZACION-SHA256.txt)
+
+Instala la actualización encima de la versión anterior. No desinstales la
+aplicación ni borres sus datos: la biblioteca local se conserva y vuelve a
+sincronizarse normalmente.
+
+Esta actualización permite mover una caja, estantería o ubicación completa con
+todos sus libros y niveles interiores. También amplía los ajustes a ocho gamas
+de color y seis tipografías, con vista previa; las nuevas fuentes vienen dentro
+de la aplicación y funcionan sin conexión.
+
+## Instalación nueva o pack para otra familia
 
 - [Pack completo para Windows y Android 0.9.0 beta 2](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.2/Biblioteca-Familiar-Pack-Completo.zip)
-- [Instalador para Windows 11](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.2/Biblioteca-Familiar-Windows-Instalador.exe)
-- [Aplicación para Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.2/Biblioteca-Familiar-Android.apk)
-- [Código QR para instalar en Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.2/QR-Instalar-Android.png)
 
 La opción recomendada es descargar el **pack completo**, abrir el ZIP y leer
 `LEEME_PRIMERO.html`. La aplicación permite fotografiar varios libros, revisar
