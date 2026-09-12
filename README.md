@@ -4,35 +4,36 @@ Aplicación privada para organizar los libros de una familia desde Windows y
 Android. Cada familia crea su propia biblioteca independiente y puede unir sus
 dispositivos mediante un código o un QR.
 
-## Actualización rápida 0.9.0 beta 4
+## Actualización rápida 0.9.0 beta 5
 
-- [Actualizar Windows 11](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.4/Biblioteca-Familiar-Windows-Instalador.exe)
-- [Actualizar Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.4/Biblioteca-Familiar-Android.apk)
-- [Código QR grande para actualizar Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.4/QR-Actualizar-Android.png)
-- [Huellas de seguridad SHA-256](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.4/ACTUALIZACION-SHA256.txt)
+- [Actualizar Windows 11](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.5/Biblioteca-Familiar-Windows-Instalador.exe)
+- [Actualizar Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.5/Biblioteca-Familiar-Android.apk)
+- [Código QR grande para actualizar Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.5/QR-Actualizar-Android.png)
+- [Huellas de seguridad SHA-256](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.5/ACTUALIZACION-SHA256.txt)
 
 Instala la actualización encima de la versión anterior. No desinstales la
 aplicación ni borres sus datos: la biblioteca local se conserva y vuelve a
 sincronizarse normalmente.
 
-Esta actualización permite mover una caja, estantería, habitación o ubicación
-completa con todos sus libros y niveles interiores. Añade descripciones en
-castellano, gallego e inglés que cambian con el idioma de la interfaz sin
-traducir jamás el título del libro. También corrige la edición en Android,
-protege los ajustes delicados contra pulsaciones accidentales y refuerza el
-reconocimiento de fotografías giradas o con muchos libros. Mantiene ocho gamas
-de color y seis tipografías con vista previa y funcionamiento sin conexión.
+Esta actualización muestra las ubicaciones como un árbol desplegable de casa,
+habitación, estantería y caja. Mantén pulsada una ubicación y arrástrala para
+mover la rama completa con todos sus libros, sin borrarlos. Distingue los libros
+colocados directamente en un nivel de los guardados dentro de sus cajas o
+estanterías. También centra, gira, endereza y mejora suavemente cada portada
+detectada, incluso cuando la fotografía está de lado o boca abajo. Las portadas
+elegidas de Internet se guardan en la biblioteca para seguir viéndolas sin
+conexión y sincronizarlas con los demás dispositivos familiares.
 
 ## Instalación nueva o pack para otra familia
 
-- [Pack completo para Windows y Android 0.9.0 beta 4](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.4/Biblioteca-Familiar-Pack-Completo.zip)
+- [Pack completo para Windows y Android 0.9.0 beta 5](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.5/Biblioteca-Familiar-Pack-Completo.zip)
 
 La opción recomendada es descargar el **pack completo**, abrir el ZIP y leer
 `LEEME_PRIMERO.html`. La aplicación permite fotografiar varios libros, revisar
 las fichas detectadas, buscar, organizar ubicaciones y exportar listas a Excel o
 Word.
 
-La versión 0.9.0 beta 4 busca también una carátula de mejor calidad y datos adicionales
+La versión 0.9.0 beta 5 busca también una carátula de mejor calidad y datos adicionales
 en Open Library cuando la coincidencia del libro es fiable. Antes de guardar se
 pueden comparar la portada fotografiada y la de Internet; el recorte original se
 conserva siempre como alternativa. Comprueba automáticamente la foto en cuatro
@@ -66,7 +67,7 @@ al volver a abrir la aplicación se pone al día automáticamente. La sincroniza
 necesita conexión a Internet en ese momento, pero la biblioteca sigue disponible
 sin conexión y los cambios pendientes se reintentan después.
 
-Al instalar 0.9.0 beta 4 sobre una versión anterior firmada se conserva la
+Al instalar 0.9.0 beta 5 sobre una versión anterior firmada se conserva la
 biblioteca local. No desinstales la aplicación ni borres sus datos.
 
 Si quieres empezar desde cero, no es necesario reinstalar. Abre **Ajustes >
