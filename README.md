@@ -4,18 +4,23 @@ Aplicación privada para organizar los libros de una familia desde Windows y
 Android. Cada familia crea su propia biblioteca independiente y puede unir sus
 dispositivos mediante un código o un QR.
 
-## Actualización rápida 0.9.0 beta 7
+## Actualización rápida 0.9.0 beta 8
 
-- [Actualizar Windows 11](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.7/Biblioteca-Familiar-Windows-Instalador.exe)
-- [Actualizar Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.7/Biblioteca-Familiar-Android.apk)
-- [Código QR grande para actualizar Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.7/QR-Actualizar-Android.png)
-- [Huellas de seguridad SHA-256](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.7/ACTUALIZACION-SHA256.txt)
+- [Actualizar Windows 11](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.8/Biblioteca-Familiar-Windows-Instalador.exe)
+- [Actualizar Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.8/Biblioteca-Familiar-Android.apk)
+- [Código QR grande para actualizar Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.8/QR-Actualizar-Android.png)
+- [Huellas de seguridad SHA-256](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.8/ACTUALIZACION-SHA256.txt)
 
 Instala la actualización encima de la versión anterior. No desinstales la
 aplicación ni borres sus datos: la biblioteca local se conserva y vuelve a
 sincronizarse normalmente.
 
-La beta 7 corrige la lista cortada de «Mover ejemplar»: puedes recorrer todas
+La beta 8 permite resolver de forma guiada el aviso de cambios distintos entre
+dispositivos. Se puede conservar lo de ese dispositivo o la versión ya
+sincronizada; la elección solo afecta a los campos enfrentados y combina el
+resto. Al final de Ajustes muestra claramente la versión instalada.
+
+También corrige la lista cortada de «Mover ejemplar»: puedes recorrer todas
 las ubicaciones o buscarlas por nombre y ruta. Al cargar libros debes elegir
 expresamente el destino. Antes de guardarlos, la aplicación muestra el número
 de libros y la ubicación completa; puedes confirmar o cancelar para cambiarla.
@@ -37,7 +42,7 @@ ficha, con el total en rojo y todas sus ubicaciones.
 
 ## Instalación nueva o pack para otra familia
 
-- [Pack completo para Windows y Android 0.9.0 beta 7](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.7/Biblioteca-Familiar-Pack-Completo.zip)
+- [Pack completo para Windows y Android 0.9.0 beta 8](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.8/Biblioteca-Familiar-Pack-Completo.zip)
 
 La opción recomendada es descargar el **pack completo**, abrir el ZIP y leer
 `LEEME_PRIMERO.html`. La aplicación permite fotografiar varios libros, revisar
@@ -78,7 +83,7 @@ al volver a abrir la aplicación se pone al día automáticamente. La sincroniza
 necesita conexión a Internet en ese momento, pero la biblioteca sigue disponible
 sin conexión y los cambios pendientes se reintentan después.
 
-Al instalar 0.9.0 beta 7 sobre una versión anterior firmada se conserva la
+Al instalar 0.9.0 beta 8 sobre una versión anterior firmada se conserva la
 biblioteca local. No desinstales la aplicación ni borres sus datos.
 
 Si quieres empezar desde cero, no es necesario reinstalar. Abre **Ajustes >
