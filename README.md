@@ -1,102 +1,53 @@
-# Biblioteca Familiar
+# Biblioteca Familiar — beta 9
 
-Aplicación privada para organizar los libros de una familia desde Windows y
-Android. Cada familia crea su propia biblioteca independiente y puede unir sus
-dispositivos mediante un código o un QR.
+Organiza los libros de tu familia en Windows y Android: fotografías, catálogo, ubicaciones, préstamos y sincronización privada. Es una versión de prueba, gratuita y sin límite comercial de libros. Todavía no está publicada en Google Play ni Microsoft Store.
 
-## Actualización rápida 0.9.0 beta 8
+## Ya tengo la aplicación: actualizar
 
-- [Actualizar Windows 11](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.8/Biblioteca-Familiar-Windows-Instalador.exe)
-- [Actualizar Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.8/Biblioteca-Familiar-Android.apk)
-- [Código QR grande para actualizar Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.8/QR-Actualizar-Android.png)
-- [Huellas de seguridad SHA-256](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.8/ACTUALIZACION-SHA256.txt)
+- [Actualizar Windows](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.9/Biblioteca-Familiar-Windows-Instalador.exe)
+- [Actualizar Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.9/Biblioteca-Familiar-Android.apk)
+- [QR para descargar Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.9/QR-Actualizar-Android.png)
+- [Huellas SHA-256](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.9/ACTUALIZACION-SHA256.txt)
 
-Instala la actualización encima de la versión anterior. No desinstales la
-aplicación ni borres sus datos: la biblioteca local se conserva y vuelve a
-sincronizarse normalmente.
+1. Sincroniza y cierra la aplicación antes de instalar.
+2. Abre el instalador encima de la versión anterior. **No desinstales ni borres los datos.**
+3. Abre la aplicación y pulsa «Sincronizar ahora». Actualiza todos los dispositivos familiares antes de editar los nuevos campos.
 
-La beta 8 permite resolver de forma guiada el aviso de cambios distintos entre
-dispositivos. Se puede conservar lo de ese dispositivo o la versión ya
-sincronizada; la elección solo afecta a los campos enfrentados y combina el
-resto. Al final de Ajustes muestra claramente la versión instalada.
+Se conserva la biblioteca local y la conexión familiar. Si aparece un conflicto, revisa qué dispositivo tiene el dato correcto antes de elegir; no vacíes la biblioteca.
 
-También corrige la lista cortada de «Mover ejemplar»: puedes recorrer todas
-las ubicaciones o buscarlas por nombre y ruta. Al cargar libros debes elegir
-expresamente el destino. Antes de guardarlos, la aplicación muestra el número
-de libros y la ubicación completa; puedes confirmar o cancelar para cambiarla.
+Desde esta beta, la aplicación avisa cuando hay una versión posterior y ofrece «Actualizar» o «Más tarde». También puedes buscar actualizaciones en Ajustes. Las versiones anteriores necesitan instalar esta actualización primero para disponer del nuevo aviso.
 
-La aplicación muestra las ubicaciones como un árbol desplegable de casa,
-habitación, estantería y caja. Mantén pulsada una ubicación y arrástrala para
-mover la rama completa con todos sus libros, sin borrarlos. Distingue los libros
-colocados directamente en un nivel de los guardados dentro de sus cajas o
-estanterías. También centra, gira, endereza y mejora suavemente cada portada
-detectada, incluso cuando la fotografía está de lado o boca abajo. Las portadas
-elegidas de Internet se guardan en la biblioteca para seguir viéndolas sin
-conexión y sincronizarlas con los demás dispositivos familiares.
+## Instalación nueva o para unos amigos
 
-El árbol permite subir, bajar y ordenar A–Z cada ubicación dentro de su nivel.
-El reconocimiento dispone de dos vías automáticas: si el proveedor retira un
-modelo o devuelve 404/429/5xx, prueba una ruta y un modelo disponibles sin perder
-la fotografía. Los duplicados confirmados se guardan como ejemplares de una sola
-ficha, con el total en rojo y todas sus ubicaciones.
+[Descargar el pack completo de Windows y Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.9/Biblioteca-Familiar-Pack-Completo.zip)
 
-## Instalación nueva o pack para otra familia
+1. Extrae el ZIP y abre `LEEME_PRIMERO.html`.
+2. Instala Windows con `Biblioteca-Familiar-Windows-Instalador.exe`, o Android con `Biblioteca-Familiar-Android.apk`.
+3. La primera persona elige «Crear una biblioteca familiar».
+4. Sus familiares eligen «Unirme a una biblioteca» e introducen el mismo código de invitación.
 
-- [Pack completo para Windows y Android 0.9.0 beta 8](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.8/Biblioteca-Familiar-Pack-Completo.zip)
+Cada familia crea una biblioteca independiente. Comparte los instaladores, **no tu código de invitación**: ese código da acceso a tu biblioteca.
 
-La opción recomendada es descargar el **pack completo**, abrir el ZIP y leer
-`LEEME_PRIMERO.html`. La aplicación permite fotografiar varios libros, revisar
-las fichas detectadas, buscar, organizar ubicaciones y exportar listas a Excel o
-Word.
+En Android, el QR de descarga abre el enlace a la APK; no es el QR para sincronizar una familia. También puedes enviar la APK por el medio que prefieras. El instalador de Windows sigue sin certificado comercial y puede mostrar SmartScreen: verifica la procedencia y no desactives el antivirus. Si Android indica una firma incompatible, solicita ayuda sin desinstalar ni borrar datos.
 
-La aplicación busca también una carátula de mejor calidad y datos adicionales
-en Open Library cuando la coincidencia del libro es fiable. Antes de guardar se
-pueden comparar la portada fotografiada y la de Internet; el recorte original se
-conserva siempre como alternativa. Comprueba automáticamente la foto en cuatro
-orientaciones, detecta libros de lado o boca abajo y endereza cada recorte. También
-permite registrar préstamos por ejemplar, persona y fecha, devoluciones y exportar
-esos datos. Acepta hasta 12 fotografías por lote y las procesa en tandas para
-evitar que el reconocimiento se bloquee con estanterías grandes. Si hay una
-sesión móvil o de Windows caducada, la aplicación intenta renovarla sin volver a
-asociar silenciosamente un dispositivo que haya sido revocado.
+## Qué mejora esta versión
 
-Esta beta añade una base SQLite independiente en cada instalación, sincronización
-con control de cambios concurrentes, caché local de portadas, aviso si falla el
-guardado y mejor tratamiento de lotes en los que una fotografía falla. Se ha
-verificado el instalador y arranque de Windows y la instalación, firma y arranque
-de Android 15 en un dispositivo limpio automatizado. También recupera
-automáticamente respuestas de reconocimiento mal formadas y permite empezar una
-biblioteca nueva y vacía desde Ajustes.
+- Las portadas descargadas se conservan en el dispositivo. Se evitan peticiones repetidas y se limita la descarga simultánea. La primera carga necesita conexión.
+- Al cambiar una portada, los demás dispositivos dejan de reutilizar su imagen antigua al sincronizar.
+- Tomo/volumen, edición y presentación (por ejemplo, bolsillo) se pueden editar y buscar. Las ediciones y tomos distintos mantienen fichas separadas.
+- Los ejemplares con los mismos datos de edición aparecen agrupados con su número y ubicaciones. Si la información es incompleta se mantienen separados para evitar fusiones incorrectas.
+- Se mantienen el árbol de ubicaciones movible, confirmación del destino antes de guardar, préstamos, exportaciones y sincronización bidireccional.
 
-## Sincronización familiar
+## Fotografías: revisar siempre
 
-En el primer dispositivo, abre **Ajustes > Sincronización familiar > Crear
-biblioteca familiar**. En los demás dispositivos usa **Unirse a una biblioteca**
-y escribe el mismo código o escanea el QR. No compartas ese código fuera de la
-familia.
+Acepta hasta 12 fotos por lote y analiza distintas orientaciones. Las fichas son propuestas que debes revisar antes de guardar; títulos, tomos y ediciones no siempre son legibles.
 
-La sincronización es bidireccional: los libros, ubicaciones, ajustes, portadas y
-préstamos que se cambien en Android se envían a Windows, y al revés. En **Ajustes**
-puedes elegir cada cuánto comprobar cambios (1, 5, 15, 30 o 60 minutos) y usar
-**Sincronizar ahora** cuando quieras. El intervalo se guarda en la biblioteca;
-al volver a abrir la aplicación se pone al día automáticamente. La sincronización
-necesita conexión a Internet en ese momento, pero la biblioteca sigue disponible
-sin conexión y los cambios pendientes se reintentan después.
+En las pruebas de esta beta, una foto con 12 libros principales devolvió 12 propuestas. Otra foto de una librería muy compacta devolvió 86 propuestas, **pero omitió libros y tuvo lecturas incompletas**. No se promete reconocimiento total. Para estanterías densas, haz una foto por estante, cercana y de frente. Un número editorial de colección no es necesariamente un número de tomo.
 
-Al instalar 0.9.0 beta 8 sobre una versión anterior firmada se conserva la
-biblioteca local. No desinstales la aplicación ni borres sus datos.
+## Sincronización y datos
 
-Si quieres empezar desde cero, no es necesario reinstalar. Abre **Ajustes >
-Empezar una biblioteca nueva y vacía**, confirma y crea la nueva familia primero
-en Windows. Después une Android con el código o QR mostrado por Windows.
+Los cambios viajan entre Windows y Android. Puedes programar la comprobación en Ajustes o pulsar «Sincronizar ahora». Requiere conexión y que la aplicación pueda ejecutarse; no se garantiza actividad continua con el móvil cerrado por el sistema.
 
-## Actualización desde Android 0.4.2
+Cada instalación guarda su catálogo en SQLite y las portadas descargadas localmente. Actualizar no exige crear otra biblioteca. Borrar los datos o desinstalar sí puede eliminar la copia local: no lo uses para solucionar conflictos.
 
-Antes de cambiar desde Android 0.4.2: sincroniza y anota el código familiar. Esa
-versión antigua puede requerir una desinstalación única; después instala la beta y
-vuelve a unirte con el código. Desde 0.7.x, la actualización es directa y conserva
-la biblioteca.
-
-Este repositorio contiene únicamente archivos instalables públicos. No contiene
-bibliotecas familiares, fotografías, contraseñas, claves privadas ni el código
-fuente del programa.
+Este repositorio contiene únicamente descargas e información pública. No contiene bibliotecas familiares, fotografías de usuarios, códigos de invitación, claves privadas ni código fuente.
