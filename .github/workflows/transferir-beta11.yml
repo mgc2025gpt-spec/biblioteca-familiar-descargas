@@ -1,0 +1,26 @@
+name: Transferir beta 11
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar archivos comprobados de la compilación
+        env:
+          GH_TOKEN: ${{ secrets.BETA11_SOURCE_TOKEN }}
+        run: |
+          gh release download v0.9.0-beta.11 --repo mgc2025gpt-spec/biblioteca-familiar --pattern 'Biblioteca-Familiar-Android.apk' --pattern 'Biblioteca-Familiar-Windows-Instalador.exe' --pattern 'Biblioteca-Familiar-Windows.zip' --pattern 'Biblioteca-Familiar-Pack-Completo.zip' --dir .
+          test -s Biblioteca-Familiar-Android.apk
+          test -s Biblioteca-Familiar-Windows-Instalador.exe
+          test -s Biblioteca-Familiar-Windows.zip
+          test -s Biblioteca-Familiar-Pack-Completo.zip
+      - name: Publicar descargas de beta 11
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload v0.9.0-beta.11 Biblioteca-Familiar-Android.apk Biblioteca-Familiar-Windows-Instalador.exe Biblioteca-Familiar-Windows.zip Biblioteca-Familiar-Pack-Completo.zip --repo mgc2025gpt-spec/biblioteca-familiar-descargas --clobber
+          gh release edit v0.9.0-beta.11 --repo mgc2025gpt-spec/biblioteca-familiar-descargas --draft=false --latest
