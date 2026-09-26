@@ -1,0 +1,26 @@
+name: Corregir guía beta 11
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  corregir:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar y corregir el paquete
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p work/unpacked
+          cd work
+          gh release download v0.9.0-beta.11 --repo mgc2025gpt-spec/biblioteca-familiar-descargas --pattern 'Biblioteca-Familiar-Pack-Completo.zip' --dir .
+          unzip -q Biblioteca-Familiar-Pack-Completo.zip -d unpacked
+          sed -i 's/beta 10/beta 11/g' unpacked/Biblioteca-Familiar/LEEME_PRIMERO.html unpacked/Biblioteca-Familiar/GUIA_INSTALACION.txt
+          ! grep -R 'beta 10' unpacked/Biblioteca-Familiar
+          cd unpacked
+          zip -qr ../Biblioteca-Familiar-Pack-Completo-corregido.zip Biblioteca-Familiar
+          cd ..
+          mv Biblioteca-Familiar-Pack-Completo-corregido.zip Biblioteca-Familiar-Pack-Completo.zip
+          gh release upload v0.9.0-beta.11 Biblioteca-Familiar-Pack-Completo.zip --repo mgc2025gpt-spec/biblioteca-familiar-descargas --clobber
