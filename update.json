@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "build": 32,
-  "version": "0.9.0-beta.17",
-  "androidUrl": "https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.17/Biblioteca-Familiar-Android.apk",
-  "androidSha256": "133a972f604a30bbf57226a01d503ba13ef89e2f71139779fcc1305fe784ca2d",
-  "androidBytes": 88955242,
-  "windowsUrl": "https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.17/Biblioteca-Familiar-Windows-Instalador.exe",
-  "windowsSha256": "ee297fb9195773f09deed35e21f0edb8dd40a2fd379c6cb059cec77a3b3e9751",
-  "windowsBytes": 14065149
+  "build": 33,
+  "version": "0.9.0-beta.18",
+  "androidUrl": "https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.18/Biblioteca-Familiar-Android.apk",
+  "androidSha256": "8699b3ff09fa5dbf4e41ac493c2d62f9ef72a4d4fd1fdfbccc6790a2cd09762d",
+  "androidBytes": 89037166,
+  "windowsUrl": "https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/download/v0.9.0-beta.18/Biblioteca-Familiar-Windows-Instalador.exe",
+  "windowsSha256": "4941b33bf61ddccdc916ddc412fdd0b74f57474316104461ad3a2f4f9f520ebe",
+  "windowsBytes": 14069890
 }
