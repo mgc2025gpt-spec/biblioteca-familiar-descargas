@@ -1,6 +1,6 @@
 # Biblioteca Familiar
 
-Versión disponible: **0.9.0-beta.23, compilación 38**, para Windows y Android. Organiza libros, vinilos, CD, casetes, DVD, Blu-ray y VHS, con ejemplares, ubicaciones, fotografías y sincronización privada.
+Versión disponible: **0.9.0-beta.24, compilación 39**, para Windows y Android. Organiza libros, vinilos, CD, casetes, DVD, Blu-ray y VHS, con ejemplares, ubicaciones, fotografías y sincronización privada.
 
 La beta es gratuita y no incorpora cobros ni un límite de 50 fichas. Todavía no está publicada en Google Play ni App Store. La distribución para iPhone está pendiente.
 
@@ -11,7 +11,7 @@ La beta es gratuita y no incorpora cobros ni un límite de 50 fichas. Todavía n
 - [Pack completo con guías](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Pack-Completo.zip)
 - [ZIP de Android con instrucciones](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Android.zip)
 - [ZIP portátil de Windows](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Windows.zip)
-- [Novedades y archivos de la beta 23](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/tag/v0.9.0-beta.23)
+- [Novedades y archivos de la beta 24](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/tag/v0.9.0-beta.24)
 
 Desde la beta 16, abre **Ajustes > Buscar actualizaciones**. La aplicación descarga y comprueba el instalador correspondiente. En Android hay que confirmar la instalación en la ventana del sistema. Las versiones anteriores pueden instalar directamente la versión actual para activar este sistema.
 
@@ -51,8 +51,28 @@ no reserva libros ni envía mensajes. Las reuniones se conservan en tus copias
 portables; los catálogos y recuentos de amigos quedan solo en memoria. Puedes copiar
 el texto de la reunión y, en Windows, guardar un archivo de calendario .ics.
 
-Esta primera versión necesita un piloto con un club real. Los experimentos de
-estanterías mediante fotos y consultas naturales siguen pendientes.
+Esta primera versión necesita un piloto con un club real. La revisión de
+estanterías mediante fotos se ha descartado a petición del creador.
+
+## Preguntar a mi biblioteca
+
+En **Ajustes > Preguntar a mi biblioteca**, escribe preguntas breves como
+«Qué libros de García Márquez tengo», «Qué libros tengo prestados» o
+«Dónde está "El nombre de la rosa"». Revisa los filtros interpretados y las
+fichas reales. Los recuentos distinguen fichas y ejemplares. Las consultas
+propias funcionan sin conexión y no modifican datos ni envían el catálogo a IA.
+
+Puedes consultar bibliotecas amigas autorizadas por separado. Los resultados
+se cuentan por página, con permisos nuevos en cada lectura y sin tope total
+de 200 fichas. La disponibilidad no compartida se mantiene como desconocida.
+Las ubicaciones y las personas con préstamos de amigos siguen privadas.
+Los resultados de amigos caducan en un máximo de 30 segundos, incluido el
+tiempo de red, y no se guardan. Las preguntas tampoco se guardan.
+
+Esta primera versión admite preguntas reconocidas y títulos literales entre
+comillas. Las preguntas complejas pueden requerir reformulación. No se
+anuncia una conversación abierta, recomendaciones generadas ni acciones
+automáticas. Pendiente evaluar preguntas reales y revisar traducciones.
 
 ## Funciones disponibles
 
@@ -66,12 +86,13 @@ estanterías mediante fotos y consultas naturales siguen pendientes.
 - Bibliotecas de amigos con caducidad, búsqueda autorizada, comparación y disponibilidad opcional.
 - Préstamos con confirmaciones separadas, enlaces limitados para invitados y reservas privadas de regalos.
 - Club de lectura con reuniones y recuento autorizado de ejemplares actuales.
+- Preguntas breves sobre el catálogo, filtros visibles y evidencia de ejemplares.
 - Interfaz en castellano, galego, inglés, italiano, alemán, francés, portugués, catalán, euskera y occitano.
 
 ## Datos y comprobaciones
 
 Cada dispositivo conserva su biblioteca local. La sincronización necesita conexión y que la aplicación pueda ejecutarse; el sistema puede suspenderla en un móvil cerrado. Guarda una copia de seguridad independiente. La base local y las copias portables no están cifradas: protege la cuenta del ordenador, el bloqueo del móvil y los archivos de copia.
 
-La beta 23 ha pasado 360 pruebas de aplicación y las comprobaciones del servidor y de publicación, incluidas solicitudes simultáneas sobre un mismo ejemplar o regalo. La actualización real de Windows conservó 604 fichas, 629 ejemplares, 46 ubicaciones y 787 imágenes. APK y AAB generados, con firma, identificador y compatibilidad Android comprobados. La instalación y la cámara en un Android físico siguen pendientes.
+La beta 24 ha pasado 390 pruebas de aplicación y las comprobaciones del servidor y de publicación, incluidas solicitudes simultáneas sobre un mismo ejemplar o regalo. La actualización real de Windows conservó 604 fichas, 629 ejemplares, 46 ubicaciones y 787 imágenes. APK y AAB generados, con firma, identificador y compatibilidad Android comprobados. La instalación y la cámara en un Android físico siguen pendientes.
 
 Este repositorio contiene descargas e información pública. Las bibliotecas familiares, fotografías de usuarios, claves y código fuente permanecen fuera de él.
