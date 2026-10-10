@@ -1,6 +1,6 @@
 # Biblioteca Familiar
 
-Versión disponible: **0.9.0-beta.24, compilación 39**, para Windows y Android. Organiza libros, vinilos, CD, casetes, DVD, Blu-ray y VHS, con ejemplares, ubicaciones, fotografías y sincronización privada.
+Versión disponible: **0.9.0-beta.25, compilación 40**, para Windows y Android. Organiza libros, vinilos, CD, casetes, DVD, Blu-ray y VHS, con ejemplares, ubicaciones, fotografías y sincronización privada.
 
 La beta es gratuita y no incorpora cobros ni un límite de 50 fichas. Todavía no está publicada en Google Play ni App Store. La distribución para iPhone está pendiente.
 
@@ -11,7 +11,7 @@ La beta es gratuita y no incorpora cobros ni un límite de 50 fichas. Todavía n
 - [Pack completo con guías](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Pack-Completo.zip)
 - [ZIP de Android con instrucciones](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Android.zip)
 - [ZIP portátil de Windows](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Windows.zip)
-- [Novedades y archivos de la beta 24](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/tag/v0.9.0-beta.24)
+- [Novedades y archivos de la beta 25](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/tag/v0.9.0-beta.25)
 
 Desde la beta 16, abre **Ajustes > Buscar actualizaciones**. La aplicación descarga y comprueba el instalador correspondiente. En Android hay que confirmar la instalación en la ventana del sistema. Las versiones anteriores pueden instalar directamente la versión actual para activar este sistema.
 
@@ -54,6 +54,19 @@ el texto de la reunión y, en Windows, guardar un archivo de calendario .ics.
 Esta primera versión necesita un piloto con un club real. La revisión de
 estanterías mediante fotos se ha descartado a petición del creador.
 
+## Correcciones de la beta 25
+
+Los CSV exportan como texto los campos que una hoja de cálculo podría interpretar
+como fórmulas. Las fichas guardadas no cambian. La búsqueda y la distinción de
+ediciones conservan letras de otros alfabetos para evitar agrupar títulos distintos.
+No se fusionan fichas ni se cambia el formato de datos. Para una restauración
+completa utiliza la copia portable; reimportar un CSV protegido puede conservar
+el apóstrofo de protección.
+
+Se ha documentado la revisión previa a las tiendas. Mantiene los diez idiomas
+existentes; la ampliación a quince, el plan comercial y la preparación de tiendas
+continúan pendientes. No se anuncian compras ni límites nuevos en esta beta.
+
 ## Preguntar a mi biblioteca
 
 En **Ajustes > Preguntar a mi biblioteca**, escribe preguntas breves como
@@ -93,6 +106,6 @@ automáticas. Pendiente evaluar preguntas reales y revisar traducciones.
 
 Cada dispositivo conserva su biblioteca local. La sincronización necesita conexión y que la aplicación pueda ejecutarse; el sistema puede suspenderla en un móvil cerrado. Guarda una copia de seguridad independiente. La base local y las copias portables no están cifradas: protege la cuenta del ordenador, el bloqueo del móvil y los archivos de copia.
 
-La beta 24 ha pasado 390 pruebas de aplicación y las comprobaciones del servidor y de publicación, incluidas solicitudes simultáneas sobre un mismo ejemplar o regalo. La actualización real de Windows conservó 604 fichas, 629 ejemplares, 46 ubicaciones y 787 imágenes. APK y AAB generados, con firma, identificador y compatibilidad Android comprobados. La instalación y la cámara en un Android físico siguen pendientes.
+La beta 25 ha pasado 396 pruebas de aplicación y las comprobaciones del servidor y de publicación, incluidas solicitudes simultáneas sobre un mismo ejemplar o regalo. La actualización real de Windows conservó 604 fichas, 629 ejemplares, 46 ubicaciones y 787 imágenes. APK y AAB generados, con firma, identificador y compatibilidad Android comprobados. La instalación y la cámara en un Android físico siguen pendientes.
 
 Este repositorio contiene descargas e información pública. Las bibliotecas familiares, fotografías de usuarios, claves y código fuente permanecen fuera de él.
