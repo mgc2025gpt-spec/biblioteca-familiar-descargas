@@ -1,6 +1,6 @@
 # Biblioteca Familiar
 
-Versión disponible: **0.9.0-beta.20, compilación 35**, para Windows y Android. Organiza libros, vinilos, CD, casetes, DVD, Blu-ray y VHS, con ejemplares, ubicaciones, fotografías y sincronización privada.
+Versión disponible: **0.9.0-beta.21, compilación 36**, para Windows y Android. Organiza libros, vinilos, CD, casetes, DVD, Blu-ray y VHS, con ejemplares, ubicaciones, fotografías y sincronización privada.
 
 La beta es gratuita y no incorpora cobros ni un límite de 50 fichas. Todavía no está publicada en Google Play ni App Store. La distribución para iPhone está pendiente.
 
@@ -11,7 +11,7 @@ La beta es gratuita y no incorpora cobros ni un límite de 50 fichas. Todavía n
 - [Pack completo con guías](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Pack-Completo.zip)
 - [ZIP de Android con instrucciones](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Android.zip)
 - [ZIP portátil de Windows](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Windows.zip)
-- [Novedades y archivos de la beta 20](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/tag/v0.9.0-beta.20)
+- [Novedades y archivos de la beta 21](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/tag/v0.9.0-beta.21)
 
 Desde la beta 16, abre **Ajustes > Buscar actualizaciones**. La aplicación descarga y comprueba el instalador correspondiente. En Android hay que confirmar la instalación en la ventana del sistema. Las versiones anteriores pueden instalar directamente la versión actual para activar este sistema.
 
@@ -27,7 +27,7 @@ Para consultar el catálogo de un amigo, abre **Ajustes > Bibliotecas de amigos*
 
 La disponibilidad y la exportación se autorizan por separado y empiezan desactivadas. Los amigos reciben únicamente datos bibliográficos: las notas, ubicaciones, fotografías, compras y nombres de quienes tienen préstamos siguen privados. Puedes buscar en varias bibliotecas y comparar obras o ediciones con las tuyas. Consultar no crea préstamos ni fusiona catálogos.
 
-El propietario puede retirar fichas y contactos o cancelar invitaciones. Los resultados requieren conexión y se vuelven a comprobar cada 30 segundos como máximo. Una copia ya exportada por otra persona no puede retirarse. El CSV autorizado contiene hasta 200 fichas. La recuperación de contactos usa una clave independiente; al utilizarla se renueva y se desconectan los dispositivos anteriores de esos contactos.
+El propietario puede retirar fichas y contactos o cancelar invitaciones. Los resultados requieren conexión y se vuelven a comprobar cada 30 segundos como máximo. Una copia ya exportada por otra persona no puede retirarse. El CSV descarga todas las fichas autorizadas de la búsqueda por partes, sin límite total. Cada parte comprueba los permisos actuales; un fallo intermedio evita copiar un CSV incompleto. La recuperación de contactos usa una clave independiente; al utilizarla se renueva y se desconectan los dispositivos anteriores de esos contactos.
 
 Comparte los instaladores con quien quieras. Guarda las invitaciones familiares y las claves de recuperación en un lugar privado; para amigos, usa la invitación específica de consulta.
 
@@ -47,6 +47,6 @@ Comparte los instaladores con quien quieras. Guarda las invitaciones familiares 
 
 Cada dispositivo conserva su biblioteca local. La sincronización necesita conexión y que la aplicación pueda ejecutarse; el sistema puede suspenderla en un móvil cerrado. Guarda una copia de seguridad independiente. La base local y las copias portables no están cifradas: protege la cuenta del ordenador, el bloqueo del móvil y los archivos de copia.
 
-La beta 20 ha pasado 323 pruebas de aplicación y las comprobaciones del servidor y de publicación. La actualización real de Windows conservó 604 fichas, 629 ejemplares, 46 ubicaciones y 655 imágenes. APK y AAB generados, con firma, identificador y compatibilidad Android comprobados. La instalación y la cámara en un Android físico siguen pendientes.
+La beta 21 ha pasado 328 pruebas de aplicación y las comprobaciones del servidor y de publicación. La actualización real de Windows conservó 604 fichas, 629 ejemplares, 46 ubicaciones y 655 imágenes. APK y AAB generados, con firma, identificador y compatibilidad Android comprobados. La instalación y la cámara en un Android físico siguen pendientes.
 
 Este repositorio contiene descargas e información pública. Las bibliotecas familiares, fotografías de usuarios, claves y código fuente permanecen fuera de él.
