@@ -1,6 +1,6 @@
 # Biblioteca Familiar
 
-Versión disponible: **0.9.0-beta.21, compilación 36**, para Windows y Android. Organiza libros, vinilos, CD, casetes, DVD, Blu-ray y VHS, con ejemplares, ubicaciones, fotografías y sincronización privada.
+Versión disponible: **0.9.0-beta.22, compilación 37**, para Windows y Android. Organiza libros, vinilos, CD, casetes, DVD, Blu-ray y VHS, con ejemplares, ubicaciones, fotografías y sincronización privada.
 
 La beta es gratuita y no incorpora cobros ni un límite de 50 fichas. Todavía no está publicada en Google Play ni App Store. La distribución para iPhone está pendiente.
 
@@ -11,7 +11,7 @@ La beta es gratuita y no incorpora cobros ni un límite de 50 fichas. Todavía n
 - [Pack completo con guías](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Pack-Completo.zip)
 - [ZIP de Android con instrucciones](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Android.zip)
 - [ZIP portátil de Windows](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Windows.zip)
-- [Novedades y archivos de la beta 21](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/tag/v0.9.0-beta.21)
+- [Novedades y archivos de la beta 22](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/tag/v0.9.0-beta.22)
 
 Desde la beta 16, abre **Ajustes > Buscar actualizaciones**. La aplicación descarga y comprueba el instalador correspondiente. En Android hay que confirmar la instalación en la ventana del sistema. Las versiones anteriores pueden instalar directamente la versión actual para activar este sistema.
 
@@ -31,6 +31,12 @@ El propietario puede retirar fichas y contactos o cancelar invitaciones. Los res
 
 Comparte los instaladores con quien quieras. Guarda las invitaciones familiares y las claves de recuperación en un lugar privado; para amigos, usa la invitación específica de consulta.
 
+En **Ajustes > Préstamos y regalos** puedes gestionar solicitudes y elegir el ejemplar que prestarás. La aprobación reserva ese ejemplar; ambas personas confirman entrega y devolución. La devolución manual de un préstamo compartido y el borrado de su ficha quedan bloqueados mientras siga vigente. Los préstamos manuales anteriores mantienen su funcionamiento.
+
+Un invitado puede solicitar y confirmar desde un enlace privado, sin instalar la aplicación. El enlace permite consultar únicamente ese préstamo, caduca a los 90 días y puede renovarse. Enviarlo a otra persona le permite actuar como invitado: comparte cada enlace solo con su destinatario. No se envían mensajes automáticamente. Las solicitudes pendientes siguen teniendo una consulta limitada para terminar la entrega o devolución aunque se retire la autorización general de la biblioteca.
+
+Desde Bibliotecas de amigos puedes buscar piezas que faltan en tus colecciones. Comprueba volumen y edición en los resultados; una coincidencia no garantiza disponibilidad. Puedes compartir explícitamente un deseo y autorizar su ficha al amigo. Las reservas privadas de regalos duran 30 días y evitan que dos personas reserven el mismo deseo. El destinatario no ve quién ni qué está reservado. Reservar no realiza una compra.
+
 ## Funciones disponibles
 
 - Catálogo multimedia, fichas bibliográficas y datos por ejemplar físico. Las ediciones y soportes diferentes conservan sus propias fichas.
@@ -41,12 +47,13 @@ Comparte los instaladores con quien quieras. Guarda las invitaciones familiares 
 - Préstamos y devoluciones, importación CSV, exportaciones y copia portable con fotografías.
 - Permisos familiares de consulta, edición y administración, recuperación de acceso y eliminación confirmada de datos.
 - Bibliotecas de amigos con caducidad, búsqueda autorizada, comparación y disponibilidad opcional.
+- Préstamos con confirmaciones separadas, enlaces limitados para invitados y reservas privadas de regalos.
 - Interfaz en castellano, galego, inglés, italiano, alemán, francés, portugués, catalán, euskera y occitano.
 
 ## Datos y comprobaciones
 
 Cada dispositivo conserva su biblioteca local. La sincronización necesita conexión y que la aplicación pueda ejecutarse; el sistema puede suspenderla en un móvil cerrado. Guarda una copia de seguridad independiente. La base local y las copias portables no están cifradas: protege la cuenta del ordenador, el bloqueo del móvil y los archivos de copia.
 
-La beta 21 ha pasado 328 pruebas de aplicación y las comprobaciones del servidor y de publicación. La actualización real de Windows conservó 604 fichas, 629 ejemplares, 46 ubicaciones y 655 imágenes. APK y AAB generados, con firma, identificador y compatibilidad Android comprobados. La instalación y la cámara en un Android físico siguen pendientes.
+La beta 22 ha pasado 340 pruebas de aplicación y las comprobaciones del servidor y de publicación, incluidas solicitudes simultáneas sobre un mismo ejemplar o regalo. La actualización real de Windows conservó 604 fichas, 629 ejemplares, 46 ubicaciones y 655 imágenes. APK y AAB generados, con firma, identificador y compatibilidad Android comprobados. La instalación y la cámara en un Android físico siguen pendientes.
 
 Este repositorio contiene descargas e información pública. Las bibliotecas familiares, fotografías de usuarios, claves y código fuente permanecen fuera de él.
