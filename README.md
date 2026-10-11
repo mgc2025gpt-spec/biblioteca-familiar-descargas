@@ -1,6 +1,6 @@
 # Biblioteca Familiar
 
-Versión disponible: **0.9.0-beta.26, compilación 41**, para Windows y Android. Organiza libros, vinilos, CD, casetes, DVD, Blu-ray y VHS, con ejemplares, ubicaciones, fotografías y sincronización privada.
+Versión disponible: **0.9.0-beta.27, compilación 42**, para Windows y Android. Organiza libros, vinilos, CD, casetes, DVD, Blu-ray y VHS, con ejemplares, ubicaciones, fotografías y sincronización privada.
 
 La beta es gratuita y no incorpora cobros ni un límite de 50 fichas. Todavía no está publicada en Google Play, Microsoft Store ni App Store. La distribución para iPhone está pendiente.
 
@@ -11,7 +11,7 @@ La beta es gratuita y no incorpora cobros ni un límite de 50 fichas. Todavía n
 - [Pack completo con guías](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Pack-Completo.zip)
 - [ZIP de Android con instrucciones](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Android.zip)
 - [ZIP portátil de Windows](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Windows.zip)
-- [Novedades y archivos de la beta 26](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/tag/v0.9.0-beta.26)
+- [Novedades y archivos de la beta 27](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/tag/v0.9.0-beta.27)
 
 Desde la beta 16, abre **Ajustes > Buscar actualizaciones**. La aplicación descarga y comprueba el instalador correspondiente. En Android hay que confirmar la instalación en la ventana del sistema. Las versiones anteriores pueden instalar directamente la versión actual para activar este sistema.
 
@@ -54,9 +54,23 @@ el texto de la reunión y, en Windows, guardar un archivo de calendario .ics.
 Esta primera versión necesita un piloto con un club real. La revisión de
 estanterías mediante fotos se ha descartado a petición del creador.
 
+## Preparación del acceso familiar
+
+La beta 27 incorpora Acceso y regalos y Fichas pendientes en quince idiomas.
+Prepara la conservación de las altas que en una futura versión queden fuera
+del cupo, con sus datos y portadas, y protege la continuidad local de las betas.
+La beta mantiene su uso gratuito y sin el límite de 50 fichas.
+
+Las 15 familias existentes siguen protegidas. El servidor ya comprueba altas,
+ediciones y escrituras simultáneas cuando se activen los planes; un rechazo
+conserva el catálogo anterior. Después de caducar acceso se conservan consulta,
+correcciones y ejemplares de ediciones existentes. No hay productos de pago
+activos ni compras de tienda habilitadas. Las bibliotecas de amigos no consumen
+el futuro cupo propio.
+
 ## Quince idiomas de interfaz
 
-La beta 26 completa neerlandés, rumano, sueco, danés y polaco, además de los diez
+La beta 26 completó neerlandés, rumano, sueco, danés y polaco, además de los diez
 idiomas anteriores. Incluye controles, familia, bibliotecas amigas, préstamos,
 colecciones, club, encabezados de exportación y fechas. El italiano sigue incluido.
 La revisión por hablantes de las nuevas traducciones continúa pendiente.
@@ -104,7 +118,7 @@ automáticas. Pendiente evaluar preguntas reales y revisar traducciones.
 
 Cada dispositivo conserva su biblioteca local. La sincronización necesita conexión y que la aplicación pueda ejecutarse; el sistema puede suspenderla en un móvil cerrado. Guarda una copia de seguridad independiente. La base local y las copias portables no están cifradas: protege la cuenta del ordenador, el bloqueo del móvil y los archivos de copia.
 
-La beta 26 ha pasado 439 pruebas de aplicación y 52 pruebas del servidor y las comprobaciones del servidor y de publicación, incluidas solicitudes simultáneas sobre un mismo ejemplar o regalo. La actualización real de Windows conservó 604 fichas, 629 ejemplares, 46 ubicaciones y 787 imágenes. APK y AAB generados, con firma, identificador y comprobaciones estáticas de Android. La compatibilidad física y con páginas de 16 KB requiere pruebas adicionales. La instalación y la cámara en un Android físico siguen pendientes.
+La beta 27 ha pasado 479 pruebas de aplicación y 52 pruebas del servidor y las comprobaciones del servidor y de publicación, incluidas solicitudes simultáneas sobre un mismo ejemplar o regalo. La actualización real de Windows conservó 604 fichas, 629 ejemplares, 46 ubicaciones y 787 imágenes. APK y AAB generados, con firma, identificador y comprobaciones estáticas de Android. La compatibilidad física y con páginas de 16 KB requiere pruebas adicionales. La instalación y la cámara en un Android físico siguen pendientes.
 
 Este repositorio contiene descargas e información pública. Las bibliotecas familiares, fotografías de usuarios, claves y código fuente permanecen fuera de él.
 
