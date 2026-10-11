@@ -1,129 +1,62 @@
 # Biblioteca Familiar
 
-Versión disponible: **0.9.0-beta.27, compilación 42**, para Windows y Android. Organiza libros, vinilos, CD, casetes, DVD, Blu-ray y VHS, con ejemplares, ubicaciones, fotografías y sincronización privada.
+Organiza tus libros, ejemplares y ubicaciones. Registra préstamos y consulta
+las bibliotecas que tus amigos te autoricen a ver.
 
-La beta es gratuita y no incorpora cobros ni un límite de 50 fichas. Todavía no está publicada en Google Play, Microsoft Store ni App Store. La distribución para iPhone está pendiente.
+**Beta 28 · Android y Windows · Gratuita durante la prueba.**
 
-## Descargar o actualizar
+[Web, funcionamiento y ayuda](https://biblioteca-familiar-app.empresa-1419.chatgpt.site)
+· [Privacidad y eliminación](https://biblioteca-familiar-privacidad.empresa-1419.chatgpt.site)
 
-- [Instalador de Windows](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Windows-Instalador.exe)
-- [APK de Android](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Android.apk)
-- [Pack completo con guías](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Pack-Completo.zip)
-- [ZIP de Android con instrucciones](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Android.zip)
-- [ZIP portátil de Windows](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Windows.zip)
-- [Novedades y archivos de la beta 27](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/tag/v0.9.0-beta.27)
+## Descargar
 
-Desde la beta 16, abre **Ajustes > Buscar actualizaciones**. La aplicación descarga y comprueba el instalador correspondiente. En Android hay que confirmar la instalación en la ventana del sistema. Las versiones anteriores pueden instalar directamente la versión actual para activar este sistema.
+- [Android: aplicación APK](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Android.apk)
+- [Windows: instalador de 64 bits](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest/download/Biblioteca-Familiar-Windows-Instalador.exe)
+- [Versión y todos los archivos](https://github.com/mgc2025gpt-spec/biblioteca-familiar-descargas/releases/latest)
 
-Antes de actualizar, guarda una copia de seguridad fuera del dispositivo. Instala encima de la versión anterior: **no desinstales ni borres sus datos**. Si aparece un conflicto de sincronización, revisa las opciones de la aplicación antes de elegir una copia. No vacíes la biblioteca para resolverlo.
+Android necesita Android 7.0 o posterior. Son descargas directas; la aplicación
+todavía no está publicada en Google Play ni Microsoft Store. iPhone está aplazado.
+La aplicación exige declarar la mayoría de edad.
 
-El instalador de Windows aún no tiene certificado comercial y puede mostrar SmartScreen. Verifica la procedencia y conserva el antivirus activado. Android mantiene la firma original; si el sistema indica una firma incompatible, conserva la instalación y pide ayuda.
+## Ayuda incluida
 
-## Bibliotecas familiares y bibliotecas de amigos
+En **Ajustes → Ayuda y preguntas** hay 500 preguntas en español repartidas
+en 25 temas. El buscador funciona sin conexión. En Ajustes también encontrarás
+**Web de Biblioteca Familiar**, que abre la información y las descargas en
+el navegador. La web contiene la misma guía con buscador y temas.
 
-Para compartir un catálogo familiar, la primera persona crea una biblioteca y entrega su invitación a los familiares. Los dispositivos invitados empiezan con permiso de consulta; un administrador puede permitir la edición. Cada persona confirma que tiene 18 años o más antes de usar la aplicación.
+Los controles nuevos están en los quince idiomas de interfaz. Las 500 respuestas
+y esta web están en español. Los títulos y autores del catálogo no cambian
+al elegir otro idioma.
 
-Para consultar el catálogo de un amigo, abre **Ajustes > Bibliotecas de amigos**. El administrador crea una invitación de consulta válida siete días y de un solo uso. Aceptarla conserva tu catálogo propio y crea un contacto sin acceso inicial a fichas. Después el administrador elige qué fichas sincronizadas compartir, durante cuánto tiempo y con qué permisos.
+Interfaz: castellano, gallego, inglés, italiano, alemán, francés, portugués,
+catalán, euskera, occitano, neerlandés, rumano, sueco, danés y polaco.
+Las traducciones siguen en revisión por hablantes.
 
-La disponibilidad y la exportación se autorizan por separado y empiezan desactivadas. Los amigos reciben únicamente datos bibliográficos: las notas, ubicaciones, fotografías, compras y nombres de quienes tienen préstamos siguen privados. Puedes buscar en varias bibliotecas y comparar obras o ediciones con las tuyas. Consultar no crea préstamos ni fusiona catálogos.
+## Conservar tu biblioteca
 
-El propietario puede retirar fichas y contactos o cancelar invitaciones. Los resultados requieren conexión y se vuelven a comprobar cada 30 segundos como máximo. Una copia ya exportada por otra persona no puede retirarse. El CSV descarga todas las fichas autorizadas de la búsqueda por partes, sin límite total. Cada parte comprueba los permisos actuales; un fallo intermedio evita copiar un CSV incompleto. La recuperación de contactos usa una clave independiente; al utilizarla se renueva y se desconectan los dispositivos anteriores de esos contactos.
+Antes de actualizar o cambiar de dispositivo, crea una copia portable desde
+Ajustes y guárdala de forma privada fuera del dispositivo. Las copias portables
+no están cifradas. Para un catálogo vinculado, conserva también su clave de
+recuperación. No envíes claves ni copias privadas al solicitar ayuda.
 
-Comparte los instaladores con quien quieras. Guarda las invitaciones familiares y las claves de recuperación en un lugar privado; para amigos, usa la invitación específica de consulta.
+Actualiza sobre la instalación anterior. No desinstales ni borres los datos.
+Añadir una biblioteca amiga permite consultar su catálogo por separado y no
+sustituye el tuyo. Vincular otro catálogo familiar es una operación diferente.
+Las consultas de bibliotecas amigas no tienen un límite comercial total de
+200 fichas. Consultar un libro no solicita un préstamo automáticamente.
 
-En **Ajustes > Préstamos y regalos** puedes gestionar solicitudes y elegir el ejemplar que prestarás. La aprobación reserva ese ejemplar; ambas personas confirman entrega y devolución. La devolución manual de un préstamo compartido y el borrado de su ficha quedan bloqueados mientras siga vigente. Los préstamos manuales anteriores mantienen su funcionamiento.
+## Estado de la beta
 
-Un invitado puede solicitar y confirmar desde un enlace privado, sin instalar la aplicación. El enlace permite consultar únicamente ese préstamo, caduca a los 90 días y puede renovarse. Enviarlo a otra persona le permite actuar como invitado: comparte cada enlace solo con su destinatario. No se envían mensajes automáticamente. Las solicitudes pendientes siguen teniendo una consulta limitada para terminar la entrega o devolución aunque se retire la autorización general de la biblioteca.
+Los cobros y el límite comercial de 50 fichas están desactivados. El acceso
+familiar de pago y los códigos de regalo siguen en preparación.
 
-Desde Bibliotecas de amigos puedes buscar piezas que faltan en tus colecciones. Comprueba volumen y edición en los resultados; una coincidencia no garantiza disponibilidad. Puedes compartir explícitamente un deseo y autorizar su ficha al amigo. Las reservas privadas de regalos duran 30 días y evitan que dos personas reserven el mismo deseo. El destinatario no ve quién ni qué está reservado. Reservar no realiza una compra.
+El instalador de Windows todavía no tiene firma de editor. Windows puede mostrar
+avisos de editor desconocido. La firma y la publicación en tiendas no garantizan
+que desaparezcan todos los avisos de seguridad.
 
-## Club de lectura
+Las pruebas físicas Android, cámara y sistema de páginas de 16 KB siguen
+pendientes. La revisión de la beta no constituye una aprobación de las tiendas.
 
-En **Ajustes > Club de lectura**, prepara una reunión con un libro de tu catálogo,
-el número de lectores y una fecha. Comprueba después los ejemplares disponibles y
-selecciona qué bibliotecas amigas participarán. Solo se suman ediciones coincidentes
-con ISBN válido y permiso vigente para mostrar disponibilidad. Los ejemplares
-prestados o reservados quedan fuera; el recuento no tiene un límite de 200 fichas.
-
-El recuento caduca como máximo a los 30 segundos. La disponibilidad actual no
-garantiza la fecha futura: acuerda los préstamos por separado. Preparar una reunión
-no reserva libros ni envía mensajes. Las reuniones se conservan en tus copias
-portables; los catálogos y recuentos de amigos quedan solo en memoria. Puedes copiar
-el texto de la reunión y, en Windows, guardar un archivo de calendario .ics.
-
-Esta primera versión necesita un piloto con un club real. La revisión de
-estanterías mediante fotos se ha descartado a petición del creador.
-
-## Preparación del acceso familiar
-
-La beta 27 incorpora Acceso y regalos y Fichas pendientes en quince idiomas.
-Prepara la conservación de las altas que en una futura versión queden fuera
-del cupo, con sus datos y portadas, y protege la continuidad local de las betas.
-La beta mantiene su uso gratuito y sin el límite de 50 fichas.
-
-Las 15 familias existentes siguen protegidas. El servidor ya comprueba altas,
-ediciones y escrituras simultáneas cuando se activen los planes; un rechazo
-conserva el catálogo anterior. Después de caducar acceso se conservan consulta,
-correcciones y ejemplares de ediciones existentes. No hay productos de pago
-activos ni compras de tienda habilitadas. Las bibliotecas de amigos no consumen
-el futuro cupo propio.
-
-## Quince idiomas de interfaz
-
-La beta 26 completó neerlandés, rumano, sueco, danés y polaco, además de los diez
-idiomas anteriores. Incluye controles, familia, bibliotecas amigas, préstamos,
-colecciones, club, encabezados de exportación y fechas. El italiano sigue incluido.
-La revisión por hablantes de las nuevas traducciones continúa pendiente.
-
-Se mantienen la protección de CSV frente a fórmulas y la conservación de títulos
-y autores escritos en otros alfabetos. Las fichas guardadas no se modifican por
-cambiar el idioma. Traducir el contenido es una función opcional de Internet.
-
-## Preguntar a mi biblioteca
-
-En **Ajustes > Preguntar a mi biblioteca**, escribe preguntas breves como
-«Qué libros de García Márquez tengo», «Qué libros tengo prestados» o
-«Dónde está "El nombre de la rosa"». Revisa los filtros interpretados y las
-fichas reales. Los recuentos distinguen fichas y ejemplares. Las consultas
-propias funcionan sin conexión y no modifican datos ni envían el catálogo a IA.
-
-Puedes consultar bibliotecas amigas autorizadas por separado. Los resultados
-se cuentan por página, con permisos nuevos en cada lectura y sin tope total
-de 200 fichas. La disponibilidad no compartida se mantiene como desconocida.
-Las ubicaciones y las personas con préstamos de amigos siguen privadas.
-Los resultados de amigos caducan en un máximo de 30 segundos, incluido el
-tiempo de red, y no se guardan. Las preguntas tampoco se guardan.
-
-Esta primera versión admite preguntas reconocidas y títulos literales entre
-comillas. Las preguntas complejas pueden requerir reformulación. No se
-anuncia una conversación abierta, recomendaciones generadas ni acciones
-automáticas. Pendiente evaluar preguntas reales y revisar traducciones.
-
-## Funciones disponibles
-
-- Catálogo multimedia, fichas bibliográficas y datos por ejemplar físico. Las ediciones y soportes diferentes conservan sus propias fichas.
-- Registro por fotografías, revisión antes de guardar y lectura de códigos. Hasta doce fotografías por lote; el reconocimiento requiere la nube y puede omitir o interpretar mal datos. Comprueba siempre los resultados.
-- Ubicaciones, cajas y mudanzas, fotos de lugares con marcas y acceso por QR.
-- Colecciones con piezas esperadas y faltantes explícitos.
-- Notas, estado, procedencia y hasta doce imágenes privadas por ejemplar; compartir imágenes con la familia requiere elegirlo expresamente.
-- Préstamos y devoluciones, importación CSV, exportaciones y copia portable con fotografías.
-- Permisos familiares de consulta, edición y administración, recuperación de acceso y eliminación confirmada de datos.
-- Bibliotecas de amigos con caducidad, búsqueda autorizada, comparación y disponibilidad opcional.
-- Préstamos con confirmaciones separadas, enlaces limitados para invitados y reservas privadas de regalos.
-- Club de lectura con reuniones y recuento autorizado de ejemplares actuales.
-- Preguntas breves sobre el catálogo, filtros visibles y evidencia de ejemplares.
-- Interfaz en castellano, galego, inglés, italiano, alemán, francés, portugués, catalán, euskera, occitano, neerlandés, rumano, sueco, danés y polaco.
-
-## Datos y comprobaciones
-
-Cada dispositivo conserva su biblioteca local. La sincronización necesita conexión y que la aplicación pueda ejecutarse; el sistema puede suspenderla en un móvil cerrado. Guarda una copia de seguridad independiente. La base local y las copias portables no están cifradas: protege la cuenta del ordenador, el bloqueo del móvil y los archivos de copia.
-
-La beta 27 ha pasado 479 pruebas de aplicación y 52 pruebas del servidor y las comprobaciones del servidor y de publicación, incluidas solicitudes simultáneas sobre un mismo ejemplar o regalo. La actualización real de Windows conservó 604 fichas, 629 ejemplares, 46 ubicaciones y 787 imágenes. APK y AAB generados, con firma, identificador y comprobaciones estáticas de Android. La compatibilidad física y con páginas de 16 KB requiere pruebas adicionales. La instalación y la cámara en un Android físico siguen pendientes.
-
-Este repositorio contiene descargas e información pública. Las bibliotecas familiares, fotografías de usuarios, claves y código fuente permanecen fuera de él.
-
-## Funcionamiento, privacidad y ayuda
-
-- [Web de Biblioteca Familiar](https://biblioteca-familiar-app.empresa-1419.chatgpt.site)
-- [Privacidad y solicitud de eliminación de datos](https://biblioteca-familiar-privacidad.empresa-1419.chatgpt.site)
-- Contacto: MGC2026GPT@GMAIL.COM. No envíes claves de recuperación ni sesiones.
+Contacto: [MGC2026GPT@GMAIL.COM](mailto:MGC2026GPT@GMAIL.COM).
+Describe lo que sucede y la versión instalada, sin incluir datos privados.
