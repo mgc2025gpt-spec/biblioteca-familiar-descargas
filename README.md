@@ -1,9 +1,10 @@
 # Biblioteca Familiar
 
-Organiza tus libros, ejemplares y ubicaciones. Registra préstamos y consulta
-las bibliotecas que tus amigos te autoricen a ver.
+Fotografía varios libros en una estantería o sobre una mesa. La aplicación
+separa los ejemplares y propone sus fichas para que las revises antes de guardarlas.
+Organiza ubicaciones y préstamos y consulta las bibliotecas que tus amigos compartan.
 
-**Beta 28 · Android y Windows · Gratuita durante la prueba.**
+**Beta 29 · Android y Windows · Gratuita durante la prueba.**
 
 [Web, funcionamiento y ayuda](https://biblioteca-familiar-app.empresa-1419.chatgpt.site)
 · [Privacidad y eliminación](https://biblioteca-familiar-privacidad.empresa-1419.chatgpt.site)
@@ -23,11 +24,13 @@ La aplicación exige declarar la mayoría de edad.
 En **Ajustes → Ayuda y preguntas** hay 500 preguntas en español repartidas
 en 25 temas. El buscador funciona sin conexión. En Ajustes también encontrarás
 **Web de Biblioteca Familiar**, que abre la información y las descargas en
-el navegador. La web contiene la misma guía con buscador y temas.
+el navegador. La web explica el reconocimiento por fotografía y ofrece
+500 preguntas en cada uno de los quince idiomas, con buscador y temas.
 
-Los controles nuevos están en los quince idiomas de interfaz. Las 500 respuestas
-y esta web están en español. Los títulos y autores del catálogo no cambian
-al elegir otro idioma.
+Los controles de la aplicación están en los quince idiomas de interfaz.
+La guía sin conexión conserva sus respuestas en español. La web, la privacidad
+y sus 500 preguntas están traducidas a los quince idiomas. Los títulos y autores
+del catálogo no cambian al elegir otro idioma.
 
 Interfaz: castellano, gallego, inglés, italiano, alemán, francés, portugués,
 catalán, euskera, occitano, neerlandés, rumano, sueco, danés y polaco.
@@ -45,6 +48,14 @@ Añadir una biblioteca amiga permite consultar su catálogo por separado y no
 sustituye el tuyo. Vincular otro catálogo familiar es una operación diferente.
 Las consultas de bibliotecas amigas no tienen un límite comercial total de
 200 fichas. Consultar un libro no solicita un préstamo automáticamente.
+
+## Reconocimiento en beta 29
+
+El servidor limita las esperas y utiliza una alternativa de visión si el modelo
+principal rechaza una solicitud por cuota. El cliente evita repetir un lote
+cuando el servidor ha agotado sus alternativas. El espacio del creador tiene
+una excepción al cupo de la aplicación, verificada en el servidor; los límites
+del proveedor siguen vigentes. El catálogo se conserva al actualizar.
 
 ## Estado de la beta
 
