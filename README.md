@@ -4,7 +4,7 @@ Fotografía varios libros en una estantería o sobre una mesa. La aplicación
 separa los ejemplares y propone sus fichas para que las revises antes de guardarlas.
 Organiza ubicaciones y préstamos y consulta las bibliotecas que tus amigos compartan.
 
-**Beta 29 · Android y Windows · Gratuita durante la prueba.**
+**Beta 30 · Android y Windows · Gratuita durante la prueba.**
 
 [Web, funcionamiento y ayuda](https://biblioteca-familiar-app.empresa-1419.chatgpt.site)
 · [Privacidad y eliminación](https://biblioteca-familiar-privacidad.empresa-1419.chatgpt.site)
@@ -49,13 +49,21 @@ sustituye el tuyo. Vincular otro catálogo familiar es una operación diferente.
 Las consultas de bibliotecas amigas no tienen un límite comercial total de
 200 fichas. Consultar un libro no solicita un préstamo automáticamente.
 
-## Reconocimiento en beta 29
+## Reconocimiento en beta 30
 
 El servidor limita las esperas y utiliza una alternativa de visión si el modelo
 principal rechaza una solicitud por cuota. El cliente evita repetir un lote
 cuando el servidor ha agotado sus alternativas. El espacio del creador tiene
 una excepción al cupo de la aplicación, verificada en el servidor; los límites
 del proveedor siguen vigentes. El catálogo se conserva al actualizar.
+
+
+La beta 30 evita que una comprobación de permisos en segundo plano interrumpa
+la siguiente fotografía. También admite el número de páginas desconocido
+al buscar datos bibliográficos. En Windows, Buscar actualizaciones está
+en la barra superior y al principio de Ajustes. Si una versión antigua
+no muestra ese control, utiliza el instalador de esta página sobre la
+instalación anterior, sin desinstalar ni borrar la biblioteca.
 
 ## Estado de la beta
 
